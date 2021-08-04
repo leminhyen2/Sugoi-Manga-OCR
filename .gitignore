@@ -1,0 +1,16 @@
+backendServer/node_modules
+backendServer/nodejs
+backendServer/Python38
+backendServer/Tesseract-OCR
+backendServer/node.exe
+backendServer/package-lock.json
+backendServer/debug.log
+
+userInterface/*
+!userInterface/resources
+userInterface/resources/*
+!userInterface/resources/app
+userInterface/resources/app/build
+userInterface/resources/app/node_modules
+userInterface/resources/app/package-lock.json
+

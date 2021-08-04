@@ -1,0 +1,37 @@
+body {
+	background-color: rgb(34, 36, 37);
+	color: rgb(218, 216, 227);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    margin: 7px;
+    background-color: #d8e9d9; /* Green */
+    border-radius: 12px;
+    color: black;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+button:active {
+  background-color: #82dd86;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.container {
+	border: 1px solid rgb(25, 25, 35);
+    margin: 7px;
+    background: rgb(54, 57, 63);
+}
+
+#menuContainer {
+    text-align: center;
+}
+
+.orange {
+    background-color: rgb(252, 190, 77);
+}

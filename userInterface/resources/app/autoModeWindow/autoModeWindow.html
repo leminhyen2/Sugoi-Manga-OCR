@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+/* html {
+    color: black;
+    display:block;
+    box-sizing: border-box;
+} */
+
+body {
+    height: 100vh;
+    overflow: auto;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* #imageHolder{
+    position:absolute;
+    left: 30%;
+    border: 5px solid black;
+}
+
+#outlinesContainer {
+    position:absolute;
+    left: 30%;
+} */
+
+/* .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+#layersHolder {
+    position: relative;
+    text-align:center;
+    margin:0 auto;
+}
+
+#imageCanvas {
+    position: absolute;
+    z-index: -1;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 5px solid black;
+}
+
+#outlinesContainer {
+    border: 5px solid black;
+}
+
+#overlayCanvas {
+    position: absolute;
+    border: 5px solid rgba(0, 0, 0, 0);
+}
+
+
+.center {
+    margin:auto;
+}
+
+#testImage {
+    position: absolute
+}
+
+.textboxOutline {
+    resize: both;
+    overflow: auto;
+}
+
+#toolBar {
+    position: absolute;
+    position: -webkit-sticky; /* Safari */
+    /* position: sticky; */
+    
+    height: 45%;
+    width: 10%;
+
+    top: 0%;
+    float: left;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    background-color: rgb(232, 241, 241);
+
+    text-align: center;
+}
+
+button {
+    margin: 7px;
+    opacity: 0.5;
+    background-color: #e1eee2; /* Green */
+    border-radius: 12px;
+    color: black;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+button:disabled {
+    background: #dddddd;
+}
+
+button:active {
+  background-color: #82dd86;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.container {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+</style>
+</head>
+<body>
+
+
+<div id="layersHolder">
+    <canvas id="imageCanvas"></canvas>
+    <div id="outlinesContainer" class="center"></div>
+    <canvas id="overlayCanvas" display="none"></canvas>
+</div>
+
+
+<div id="toolBar">
+
+    <div class="container">
+        <div class="tooltip">
+            <button id="OCRmode">OCR Mode</button>
+            <span class="tooltiptext">click on text box to translate</span>
+        </div>
+        <div class="tooltip">
+            <button id="deleteMode">Delete Mode</button>
+            <span class="tooltiptext">click on text box to delete</span>
+        </div>
+        <div class="tooltip">
+            <button id="createMode">Create Mode</button>
+            <span class="tooltiptext">Drag your mouse to form a text rectangle then go to OCR/Read mode</span>
+        </div>
+        <div class="tooltip">
+            <button id="readMode">Read Mode</button>
+            <span class="tooltiptext">same as OCR mode but only show text box on hovering</span>
+        </div>
+    </div>
+
+    <img id="croppedImage"> 
+
+</div>
+
+
+<script src="autoModeWindow.js"></script>
+
+</body>
+</html>

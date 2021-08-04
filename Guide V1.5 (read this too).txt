@@ -1,0 +1,18 @@
+Updates from V1.0 to V1.5:
++ OCR support for Korean and Chinese
++ Japanese Furigana removal (great for OCR accuracy)
++ Papago Translation (good for Korean)
++ Can change translation language from english to others (ie. Spanish, Korean, Chinese)
++ Can turn off translation 
+
+Some notes: 
+- Papago and Bing are a lot faster than DeepL so if you willing to compromise some quality, change to either two of them
+- To change translation language, open settings.json with notepad and change "translation language" then save
+- If the program not working properly, close then reopen it. If not worked, contact me in the Discord group
+- Don't capture the browser URL bar as it will mess up with deteciton
+
+Discord group (if you are interested or have issues setting up):
+- https://discord.gg/XFbWSjMHJh
+- https://discord.com/invite/XFbWSjMHJh
+
+Either links is fine, don't worry if you saw the group name as "Visual Novel OCR", it is the correct one

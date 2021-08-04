@@ -1,0 +1,16 @@
+{
+    "hideBrowserWindowTrueOrFalse": true,
+    "DeepL": {
+        "translationLanguage": "en",
+        "inputTextboxID": "#source-dummydiv",
+        "resultTextboxID": "#target-dummydiv",
+        "initialPhrase": "こんにちは"
+    },
+    "Papago": {
+        "originalLanguage": "ko",
+        "translationLanguage": "en",
+        "inputTextboxID": "#txtSource",
+        "resultTextboxID": "#txtTarget",
+        "initialPhrase": "こんにちは"
+    }
+}

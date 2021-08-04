@@ -1,0 +1,14 @@
+{
+    "captureButton": {
+        "keycode": 30,
+        "rawcode": 65
+    },
+    "fullScreenButton": {
+        "keycode": "",
+        "rawcode": ""
+    },
+    "goBackButton": {
+        "keycode": "",
+        "rawcode": ""
+    }
+}

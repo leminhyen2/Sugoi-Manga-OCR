@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mainMenuWindow.css" />
+  </head>
+  <body style="-webkit-app-region: drag">
+    <h3 id="messageContainer" class="container">Message Box</h3>
+    
+    <div id="menuContainer" class="container">
+      <h3>READ THROUGH THE INSTRUCTION AT LEAST ONCE</h3>
+    </div>
+
+    <!-- <div id="menuContainer" class="container">
+      <label for="OCRlanguages">OCR Language:</label>
+      <select name="OCRlanguages" id="OCRlanguagesSelection">
+        <option value="Japanese">Japanese</option>
+        <option value="Korean">Korean</option>
+        <option value="Chinese">Chinese</option>
+      </select>
+    </div> -->
+
+    <div id="menuContainer" class="container">
+      <label for="Modes">Modes:</label>
+      <select name="modes" id="modesSelection">
+        <option value="Auto">Auto</option>
+        <option value="Manual">Manual</option>
+      </select>
+    </div>
+
+    <div id="menuContainer" class="container">
+      <label for="ocrLanguage">OCR Language:</label>
+      <select name="ocrLanguage" id="ocrLanguageSelection">
+        <option value="japaneseVertical">Japanese Vertical</option>
+        <option value="japaneseHorizontal">Japanese Horizontal</option>
+        <option value="chineseVertical">Chinese Vertical</option>
+        <option value="chineseHorizontal">Chinese Horizontal</option>
+        <option value="koreanVertical">Korean Vertical (Papago Bing)</option>
+        <option value="koreanHorizontal">Korean Horizontal (Papago Bing)</option>
+      </select>
+    </div>
+
+    <div id="menuContainer" class="container">
+      <label for="translators">Translators:</label>
+      <select name="translators" id="translatorsSelection">
+        <option value="DeepL">DeepL</option>
+        <option value="Papago">Papago (Good for Korean)</option>
+        <option value="Bing">Bing</option>
+        <option value="Translation Off">Translation Off</option>
+      </select>
+    </div>
+
+
+
+    <!-- <div id="menuContainer" class="container">
+      <label for="languages">Translation Language:</label>
+      <select name="languages" id="languagesSelection"></select>
+    </div> -->
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./mainMenuWindow.js"></script>
+  </body>
+</html>

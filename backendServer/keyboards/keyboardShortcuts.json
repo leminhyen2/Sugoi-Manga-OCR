@@ -1,0 +1,18 @@
+{
+    "captureButton": {
+        "keycode": "",
+        "rawcode": ""
+    },
+    "fullScreenButton": {
+        "keycode": "",
+        "rawcode": ""
+    },
+    "goBackButton": {
+        "keycode": "",
+        "rawcode": ""
+    },
+    "cropButton": {
+        "keycode": "",
+        "rawcode": ""
+    }
+}
