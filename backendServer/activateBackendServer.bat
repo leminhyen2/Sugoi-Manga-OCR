@@ -1,2 +1,2 @@
 color 2
-node.exe server.js
+"Power-Source/Node12/node.exe" server.js

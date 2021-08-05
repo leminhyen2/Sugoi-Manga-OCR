@@ -1,2 +1,2 @@
 color 9
-node.exe translatorServer.js
+"Power-Source/Node12/node.exe" translatorServer.js
